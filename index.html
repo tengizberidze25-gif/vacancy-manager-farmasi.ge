@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>გუნდის განვითარების მენეჯერი | Farmasi Georgia - ვაკანსია</title>
+    <meta name="description" content="Farmasi Georgia ეძებს გუნდის განვითარების მენეჯერს. შემოუერთდი საერთაშორისო ბრენდს, რომელიც 125+ ქვეყანაში ოპერირებს. ნატახტარი, მცხეთის მუნიციპალიტეტი.">
+    <meta name="keywords" content="ვაკანსია, სამუშაო, Farmasi, მენეჯერი, საქართველო, გუნდის მართვა, ნატახტარი, მცხეთა">
+    
+    <!-- Open Graph Tags (Facebook/LinkedIn) -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="გუნდის განვითარების მენეჯერი | Farmasi Georgia">
+    <meta property="og:description" content="შემოუერთდი Farmasi Georgia-ს გუნდს. სტრატეგიული როლი მზარდ კომპანიაში.">
+    <meta property="og:url" content="https://www.farmasi.ge/careers/team-development-manager">
+    <meta property="og:locale" content="ka_GE">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="გუნდის განვითარების მენეჯერი | Farmasi Georgia">
+    <meta name="twitter:description" content="სტრატეგიული როლი მზარდ კომპანიაში. განცხადების შევსება 2-3 წუთში.">
+    
+    <!-- Schema.org Job Posting -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "JobPosting",
+      "title": "გუნდის განვითარების მენეჯერი",
+      "description": "Farmasi Georgia ეძებს პროფესიონალ მენეჯერს გუნდის განვითარებისთვის.",
+      "datePosted": "2026-04-24",
+      "validThrough": "2026-06-24",
+      "employmentType": "FULL_TIME",
+      "hiringOrganization": {
+        "@type": "Organization",
+        "name": "შპს ფარმასი ჯორჯია",
+        "sameAs": "https://www.farmasi.ge"
+      },
+      "jobLocation": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "ნატახტარი",
+          "addressRegion": "მცხეთის მუნიციპალიტეტი",
+          "addressCountry": "GE"
+        }
+      }
+    }
+    </script>
+    
+    <!-- Google Fonts - Georgian-compatible -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@400;600;700;900&family=Noto+Sans+Georgian:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        /* ============================================
+           CSS Variables - Farmasi Brand Colors
+           ============================================ */
+        :root {
+            --farmasi-pink: #EC008C;
+            --farmasi-pink-dark: #C10070;
+            --farmasi-pink-light: #FFE5F4;
+            --farmasi-black: #1A1A1A;
+            --farmasi-gray: #6B6B6B;
+            --farmasi-gray-light: #F5F5F5;
+            --farmasi-white: #FFFFFF;
+            --accent-gold: #D4AF37;
+            
+            --font-display: 'Noto Serif Georgian', serif;
+            --font-body: 'Noto Sans Georgian', sans-serif;
+            
+            --container-max: 920px;
+            --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.04);
+            --shadow-md: 0 8px 24px rgba(236, 0, 140, 0.12);
+            --shadow-lg: 0 16px 40px rgba(236, 0, 140, 0.20);
+        }
+
+        /* ============================================
+           Reset & Base Styles
+           ============================================ */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: var(--font-body);
+            font-size: 16px;
+            line-height: 1.7;
+            color: var(--farmasi-black);
+            background: var(--farmasi-white);
+            overflow-x: hidden;
+        }
+
+        /* ============================================
+           Header
+           ============================================ */
+        .page-header {
+            background: var(--farmasi-white);
+            padding: 1.25rem 1.5rem;
+            border-bottom: 1px solid #EEE;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            backdrop-filter: blur(10px);
+            background: rgba(255, 255, 255, 0.95);
+        }
+
+        .header-inner {
+            max-width: var(--container-max);
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 0.25rem;
+            text-decoration: none;
+            line-height: 1;
+        }
+
+        .logo img {
+            height: 80px;
+            width: auto;
+            display: block;
+        }
+
+        .logo-sub {
+            font-family: var(--font-body);
+            font-weight: 500;
+            font-size: 0.75rem;
+            color: var(--farmasi-gray);
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
+            margin-left: 2px;
+        }
+
+        .header-link {
+            font-family: var(--font-body);
+            font-size: 0.875rem;
+            color: var(--farmasi-gray);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+
+        .header-link:hover {
+            color: var(--farmasi-pink);
+        }
+
+        /* ============================================
+           Hero Section
+           ============================================ */
+        .hero {
+            padding: 5rem 1.5rem 4rem;
+            background: linear-gradient(180deg, var(--farmasi-pink-light) 0%, var(--farmasi-white) 100%);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -100px;
+            right: -100px;
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, rgba(236, 0, 140, 0.08) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+
+        .hero::after {
+            content: '';
+            position: absolute;
+            bottom: -150px;
+            left: -150px;
+            width: 500px;
+            height: 500px;
+            background: radial-gradient(circle, rgba(212, 175, 55, 0.06) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+
+        .hero-inner {
+            max-width: var(--container-max);
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero-badge {
+            display: inline-block;
+            background: var(--farmasi-white);
+            color: var(--farmasi-pink);
+            padding: 0.5rem 1.25rem;
+            border-radius: 100px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            margin-bottom: 1.5rem;
+            box-shadow: var(--shadow-sm);
+            border: 1px solid rgba(236, 0, 140, 0.15);
+        }
+
+        .hero-title {
+            font-family: var(--font-display);
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            font-weight: 900;
+            line-height: 1.1;
+            letter-spacing: -0.02em;
+            color: var(--farmasi-black);
+            margin-bottom: 0.5rem;
+        }
+
+        .hero-subtitle {
+            font-family: var(--font-body);
+            font-size: clamp(1rem, 2vw, 1.25rem);
+            font-weight: 400;
+            color: var(--farmasi-gray);
+            margin-bottom: 2.5rem;
+            letter-spacing: 0.02em;
+        }
+
+        .hero-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-bottom: 3rem;
+        }
+
+        .meta-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: var(--farmasi-white);
+            padding: 0.75rem 1.25rem;
+            border-radius: 12px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: var(--farmasi-black);
+            box-shadow: var(--shadow-sm);
+            border: 1px solid rgba(0, 0, 0, 0.04);
+        }
+
+        .meta-icon {
+            font-size: 1.1rem;
+        }
+
+        /* ============================================
+           CTA Button - The Star of the Show
+           ============================================ */
+        .cta-button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.75rem;
+            background: var(--farmasi-pink);
+            color: var(--farmasi-white);
+            font-family: var(--font-body);
+            font-size: 1.0625rem;
+            font-weight: 600;
+            padding: 1.15rem 2.5rem;
+            border: none;
+            border-radius: 14px;
+            text-decoration: none;
+            letter-spacing: 0.02em;
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: var(--shadow-md);
+            position: relative;
+            overflow: hidden;
+            min-height: 56px;
+        }
+
+        .cta-button::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+            transition: left 0.6s;
+        }
+
+        .cta-button:hover {
+            background: var(--farmasi-pink-dark);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .cta-button:hover::before {
+            left: 100%;
+        }
+
+        .cta-button:active {
+            transform: translateY(0);
+        }
+
+        .cta-arrow {
+            transition: transform 0.3s;
+            font-size: 1.25rem;
+        }
+
+        .cta-button:hover .cta-arrow {
+            transform: translateX(4px);
+        }
+
+        /* ============================================
+           Content Sections
+           ============================================ */
+        .content {
+            max-width: var(--container-max);
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+
+        section {
+            padding: 4rem 0;
+        }
+
+        .section-title {
+            font-family: var(--font-display);
+            font-size: clamp(1.5rem, 3vw, 2.25rem);
+            font-weight: 700;
+            color: var(--farmasi-black);
+            margin-bottom: 1.5rem;
+            letter-spacing: -0.01em;
+            position: relative;
+            padding-left: 1.25rem;
+        }
+
+        .section-title::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0.5rem;
+            bottom: 0.5rem;
+            width: 4px;
+            background: var(--farmasi-pink);
+            border-radius: 2px;
+        }
+
+        .section-text {
+            font-size: 1.0625rem;
+            color: var(--farmasi-black);
+            line-height: 1.8;
+            margin-bottom: 1.25rem;
+        }
+
+        .section-text strong {
+            color: var(--farmasi-pink);
+            font-weight: 600;
+        }
+
+        /* ============================================
+           Mid-Page CTA Card
+           ============================================ */
+        .cta-card {
+            background: linear-gradient(135deg, var(--farmasi-pink) 0%, var(--farmasi-pink-dark) 100%);
+            color: var(--farmasi-white);
+            padding: 3rem 2rem;
+            border-radius: 20px;
+            text-align: center;
+            margin: 2rem 0;
+            position: relative;
+            overflow: hidden;
+            box-shadow: var(--shadow-lg);
+        }
+
+        .cta-card::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -10%;
+            width: 300px;
+            height: 300px;
+            background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+
+        .cta-card-title {
+            font-family: var(--font-display);
+            font-size: 1.75rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .cta-card-text {
+            font-size: 1rem;
+            opacity: 0.95;
+            margin-bottom: 1.75rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .cta-card .cta-button {
+            background: var(--farmasi-white);
+            color: var(--farmasi-pink);
+            position: relative;
+            z-index: 1;
+        }
+
+        .cta-card .cta-button:hover {
+            background: var(--farmasi-black);
+            color: var(--farmasi-white);
+        }
+
+        /* ============================================
+           Lists
+           ============================================ */
+        .responsibility-list,
+        .requirement-list,
+        .benefit-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .responsibility-list li,
+        .requirement-list li,
+        .benefit-list li {
+            padding: 1rem 0 1rem 2rem;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+            font-size: 1rem;
+            line-height: 1.6;
+            position: relative;
+        }
+
+        .responsibility-list li::before {
+            content: '●';
+            position: absolute;
+            left: 0;
+            color: var(--farmasi-pink);
+            font-size: 0.65rem;
+            top: 1.35rem;
+        }
+
+        .requirement-list li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: var(--farmasi-pink);
+            font-weight: 700;
+            top: 1rem;
+        }
+
+        .benefit-list li::before {
+            content: '✦';
+            position: absolute;
+            left: 0;
+            color: var(--accent-gold);
+            font-weight: 700;
+            top: 1rem;
+            font-size: 1.1rem;
+        }
+
+        .sub-title {
+            font-family: var(--font-body);
+            font-size: 1.0625rem;
+            font-weight: 600;
+            color: var(--farmasi-pink);
+            margin: 2rem 0 0.5rem;
+            letter-spacing: 0.02em;
+            text-transform: uppercase;
+        }
+
+        .sub-title:first-child {
+            margin-top: 0;
+        }
+
+        /* ============================================
+           Business Model Highlight Box
+           ============================================ */
+        .highlight-box {
+            background: var(--farmasi-gray-light);
+            border-left: 4px solid var(--farmasi-pink);
+            padding: 2rem;
+            border-radius: 0 12px 12px 0;
+            margin: 2rem 0;
+        }
+
+        .highlight-box p {
+            margin-bottom: 1rem;
+        }
+
+        .highlight-box p:last-child {
+            margin-bottom: 0;
+        }
+
+        /* ============================================
+           Final CTA Section
+           ============================================ */
+        .final-cta {
+            background: var(--farmasi-black);
+            color: var(--farmasi-white);
+            padding: 5rem 1.5rem;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .final-cta::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(236, 0, 140, 0.15) 0%, transparent 60%);
+            border-radius: 50%;
+        }
+
+        .final-cta-inner {
+            max-width: var(--container-max);
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+        }
+
+        .final-cta-title {
+            font-family: var(--font-display);
+            font-size: clamp(2rem, 4vw, 2.75rem);
+            font-weight: 900;
+            margin-bottom: 1rem;
+            letter-spacing: -0.02em;
+        }
+
+        .final-cta-text {
+            font-size: 1.125rem;
+            color: rgba(255, 255, 255, 0.8);
+            margin-bottom: 2.5rem;
+        }
+
+        .info-row {
+            display: flex;
+            justify-content: center;
+            gap: 2.5rem;
+            flex-wrap: wrap;
+            margin-top: 3rem;
+            padding-top: 2.5rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .info-item {
+            text-align: left;
+        }
+
+        .info-label {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: rgba(255, 255, 255, 0.5);
+            margin-bottom: 0.25rem;
+        }
+
+        .info-value {
+            font-size: 1rem;
+            color: var(--farmasi-white);
+            font-weight: 500;
+        }
+
+        .info-value a {
+            color: var(--farmasi-pink);
+            text-decoration: none;
+        }
+
+        .info-value a:hover {
+            text-decoration: underline;
+        }
+
+        /* ============================================
+           Sticky Mobile CTA
+           ============================================ */
+        .mobile-sticky-cta {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: var(--farmasi-white);
+            padding: 0.75rem 1rem;
+            box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.1);
+            z-index: 99;
+            border-top: 1px solid rgba(0, 0, 0, 0.05);
+        }
+
+        .mobile-sticky-cta .cta-button {
+            width: 100%;
+            padding: 0.9rem 1rem;
+            font-size: 1rem;
+        }
+
+        /* ============================================
+           Footer
+           ============================================ */
+        .page-footer {
+            background: var(--farmasi-gray-light);
+            padding: 2rem 1.5rem;
+            text-align: center;
+            font-size: 0.875rem;
+            color: var(--farmasi-gray);
+        }
+
+        /* ============================================
+           Responsive Design
+           ============================================ */
+        @media (max-width: 768px) {
+            .hero {
+                padding: 3rem 1rem 3rem;
+            }
+            
+            .hero-meta {
+                gap: 0.5rem;
+            }
+            
+            .meta-item {
+                padding: 0.6rem 1rem;
+                font-size: 0.85rem;
+            }
+            
+            section {
+                padding: 3rem 0;
+            }
+            
+            .cta-card {
+                padding: 2rem 1.25rem;
+            }
+            
+            .cta-card-title {
+                font-size: 1.375rem;
+            }
+            
+            .info-row {
+                flex-direction: column;
+                gap: 1.5rem;
+                align-items: center;
+            }
+            
+            .info-item {
+                text-align: center;
+            }
+            
+            .mobile-sticky-cta {
+                display: block;
+            }
+            
+            body {
+                padding-bottom: 80px;
+            }
+        }
+
+        /* ============================================
+           Animations
+           ============================================ */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .hero-badge,
+        .hero-title,
+        .hero-subtitle,
+        .hero-meta,
+        .hero .cta-button {
+            animation: fadeInUp 0.6s ease-out backwards;
+        }
+
+        .hero-badge { animation-delay: 0.1s; }
+        .hero-title { animation-delay: 0.2s; }
+        .hero-subtitle { animation-delay: 0.3s; }
+        .hero-meta { animation-delay: 0.4s; }
+        .hero .cta-button { animation-delay: 0.5s; }
+    </style>
+</head>
+<body>
+
+    <!-- ============================================
+         Header
+         ============================================ -->
+    <header class="page-header">
+        <div class="header-inner">
+            <a href="https://www.farmasi.ge" class="logo">
+                <img src="farmasi-logo.png" alt="Farmasi Georgia">
+                <span class="logo-sub">Georgia</span>
+            </a>
+            <a href="https://www.farmasi.ge" class="header-link">farmasi.ge →</a>
+        </div>
+    </header>
+
+    <!-- ============================================
+         Hero Section
+         ============================================ -->
+    <section class="hero">
+        <div class="hero-inner">
+            <span class="hero-badge">ღია ვაკანსია</span>
+            <h1 class="hero-title">გუნდის განვითარების მენეჯერი</h1>
+            <p class="hero-subtitle">Team Development Manager</p>
+            
+            <div class="hero-meta">
+                <div class="meta-item">
+                    <span class="meta-icon">📍</span>
+                    <span>ნატახტარი, მცხეთის მუნიციპალიტეტი</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-icon">💼</span>
+                    <span>სრული განაკვეთი</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-icon">🏢</span>
+                    <span>Direct Selling</span>
+                </div>
+            </div>
+            
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdQvMb1QrO5OJ0lSDlKb3HjNHpYXDeMoEj5Kpd_CFsOVUidpg/viewform" 
+               class="cta-button" 
+               target="_blank" 
+               rel="noopener"
+               onclick="trackApplyClick('top')">
+                <span>განცხადების შევსება</span>
+                <span class="cta-arrow">→</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- ============================================
+         About Us Section
+         ============================================ -->
+    <div class="content">
+        <section>
+            <h2 class="section-title">ჩვენს შესახებ</h2>
+            <p class="section-text">
+                შპს ფარმასი ჯორჯია არის თურქული სილამაზისა და პერსონალური მოვლის საერთაშორისო ბრენდ <strong>Farmasi</strong>-ის ოფიციალური წარმომადგენელი საქართველოში <strong>2006 წლიდან</strong>.
+            </p>
+            <p class="section-text">
+                Farmasi დაარსდა 1950-იან წლებში თურქეთში და დღეს წარმოდგენილია <strong>125-ზე მეტ ქვეყანაში</strong>. კომპანია არის პირდაპირი გაყიდვების (Direct Selling) ერთ-ერთი წამყვანი ბრენდი, რომელიც აწარმოებს კოსმეტიკას, პარფიუმერიას, კანის მოვლის საშუალებებს, ბიოლოგიურად აქტიურ საკვებ დანამატებს და უსაფრთხო საოჯახო ქიმიას საკუთარ სერტიფიცირებულ (ISO 9001, GMP, FDA) ქარხნებში. გაყიდვების მიხედვით კომპანია Farmasi 2026 წლის მონაცემებით მსოფლიოს მასშტაბით <strong>მე-11 ადგილზეა</strong>.
+            </p>
+            <p class="section-text">
+                საქართველოში 20 წლიანი წარმატებული გამოცდილების შემდეგ, ჩვენ ვაფართოვებთ გუნდს და ვეძებთ ლიდერს, რომელიც კიდევ უფრო გააძლიერებს ჩვენი წარმომადგენლების ქსელს.
+            </p>
+        </section>
+
+        <!-- ============================================
+             Position Section
+             ============================================ -->
+        <section>
+            <h2 class="section-title">პოზიციის შესახებ</h2>
+            <p class="section-text">
+                ვეძებთ პროფესიონალ მენეჯერს, რომელიც უხელმძღვანელებს ჩვენი ბიუთი-წარმომადგენლების (Beauty Influencers) ქსელის სისტემურ განვითარებას.
+            </p>
+            <p class="section-text">
+                ეს არის <strong>სტრატეგიული როლი</strong> — არა მხოლოდ არსებული გუნდის მართვა, არამედ ქსელის ზრდა, ახალი წევრების მოზიდვა, მათი დატრენინგება და გრძელვადიანი ჩართულობის უზრუნველყოფა.
+            </p>
+        </section>
+
+        <!-- ============================================
+             Business Model Section
+             ============================================ -->
+        <section>
+            <h2 class="section-title">ბიზნეს-მოდელი — გამჭვირვალედ</h2>
+            <div class="highlight-box">
+                <p>
+                    Farmasi ოპერირებს <strong>პირდაპირი გაყიდვების (Direct Selling)</strong> მოდელით. ეს ნიშნავს, რომ ჩვენი წარმომადგენლები დამოუკიდებლად უკეთებენ რეალიზაციას პროდუქციას და ავითარებენ საკუთარ გუნდს.
+                </p>
+                <p>
+                    გუნდის განვითარების მენეჯერის როლი გულისხმობს ახალი წარმომადგენლების მოზიდვას, მათ მომზადებას — ინფორმაციულ უზრუნველყოფას, დატრენინგებას და მხარდაჭერას, გუნდის შედეგების მონიტორინგს და სტრატეგიულ დაგეგმვას.
+                </p>
+                <p>
+                    ვფიქრობთ გამჭვირვალობა მნიშვნელოვანია — ამიტომ ამას ღიად ვწერთ.
+                </p>
+            </div>
+        </section>
+
+        <!-- ============================================
+             Mid-Page CTA Card
+             ============================================ -->
+        <div class="cta-card">
+            <h3 class="cta-card-title">დაინტერესდით?</h3>
+            <p class="cta-card-text">შეავსეთ აპლიკაცია სულ 2-3 წუთში</p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdQvMb1QrO5OJ0lSDlKb3HjNHpYXDeMoEj5Kpd_CFsOVUidpg/viewform" 
+               class="cta-button" 
+               target="_blank" 
+               rel="noopener"
+               onclick="trackApplyClick('middle')">
+                <span>განცხადების შევსება</span>
+                <span class="cta-arrow">→</span>
+            </a>
+        </div>
+
+        <!-- ============================================
+             Responsibilities Section
+             ============================================ -->
+        <section>
+            <h2 class="section-title">ძირითადი პასუხისმგებლობები</h2>
+            <ul class="responsibility-list">
+                <li>წარმომადგენელთა ქსელის სისტემური განვითარება და გაფართოება</li>
+                <li>ახალი წევრების მოძიება, შერჩევა, ონბორდინგი და ინტეგრაცია</li>
+                <li>ტრენინგებისა და განვითარების პროგრამების დაგეგმვა და განხორციელება</li>
+                <li>გუნდის შედეგების ანალიზი და KPI-ების მონიტორინგი</li>
+                <li>სტრატეგიული გადაწყვეტილებების მიღება მონაცემების საფუძველზე</li>
+                <li>გრძელვადიანი მოტივაციისა და ჩართულობის სისტემის დანერგვა</li>
+                <li>რეგულარული კომუნიკაცია გუნდის წევრებთან</li>
+                <li>შედეგების რეპორტინგი ხელმძღვანელობასთან</li>
+            </ul>
+        </section>
+
+        <!-- ============================================
+             Requirements Section
+             ============================================ -->
+        <section>
+            <h2 class="section-title">მოთხოვნები</h2>
+            
+            <div class="sub-title">აუცილებელი</div>
+            <ul class="requirement-list">
+                <li>უმაღლესი განათლება</li>
+                <li>მინიმუმ 2-3 წლის გამოცდილება გუნდის მართვაში ან გაყიდვებში</li>
+                <li>ძლიერი ლიდერული და საკომუნიკაციო უნარები</li>
+                <li>ანალიტიკური და სტრატეგიული აზროვნება</li>
+                <li>შედეგზე ორიენტირებული მიდგომა</li>
+                <li>ქართული ენა — თავისუფლად</li>
+            </ul>
+            
+            <div class="sub-title">უპირატესობა</div>
+            <ul class="requirement-list">
+                <li>გამოცდილება პირდაპირი გაყიდვების / ქსელური მარკეტინგის სფეროში</li>
+                <li>ინგლისური ან თურქული ენა</li>
+                <li>ცოდნა ციფრული მარკეტინგის და სოციალური მედიის სფეროში</li>
+                <li>ავტომობილი და მართვის მოწმობა</li>
+            </ul>
+        </section>
+
+        <!-- ============================================
+             Benefits Section
+             ============================================ -->
+        <section>
+            <h2 class="section-title">რას ვთავაზობთ</h2>
+            <ul class="benefit-list">
+                <li>საერთაშორისო ბრენდის მხარდაჭერა — Farmasi-ს 76-წლიანი გამოცდილება</li>
+                <li>20 წლიანი ადგილობრივი ბაზა — არ იწყებთ ნულიდან</li>
+                <li>სტრატეგიული როლი მზარდ კომპანიაში</li>
+                <li>პროფესიონალური ტრენინგები — ადგილობრივი და საერთაშორისო</li>
+                <li>შედეგზე დაფუძნებული ანაზღაურების მოდელი</li>
+                <li>კარიერული ზრდის რეალური შესაძლებლობა</li>
+                <li>თანამედროვე ოფისი ნატახტარში</li>
+            </ul>
+        </section>
+    </div>
+
+    <!-- ============================================
+         Final CTA Section
+         ============================================ -->
+    <section class="final-cta">
+        <div class="final-cta-inner">
+            <h2 class="final-cta-title">მზად ხართ? დავიწყოთ!</h2>
+            <p class="final-cta-text">შეავსეთ ონლაინ აპლიკაცია და ჩვენ დაგიკავშირდებით</p>
+            
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdQvMb1QrO5OJ0lSDlKb3HjNHpYXDeMoEj5Kpd_CFsOVUidpg/viewform" 
+               class="cta-button" 
+               target="_blank" 
+               rel="noopener"
+               onclick="trackApplyClick('bottom')">
+                <span>განცხადების შევსება</span>
+                <span class="cta-arrow">→</span>
+            </a>
+            
+            <div class="info-row">
+                <div class="info-item">
+                    <div class="info-label">ელფოსტა</div>
+                    <div class="info-value">
+                        <a href="mailto:info@farmasi.ge">info@farmasi.ge</a>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <div class="info-label">განხილვის ვადა</div>
+                    <div class="info-value">5-7 სამუშაო დღე</div>
+                </div>
+                <div class="info-item">
+                    <div class="info-label">მდებარეობა</div>
+                    <div class="info-value">ნატახტარი, მცხეთა</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         Footer
+         ============================================ -->
+    <footer class="page-footer">
+        <p>© 2026 შპს ფარმასი ჯორჯია | Farmasi-ს ოფიციალური წარმომადგენელი საქართველოში</p>
+    </footer>
+
+    <!-- ============================================
+         Mobile Sticky CTA
+         ============================================ -->
+    <div class="mobile-sticky-cta">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdQvMb1QrO5OJ0lSDlKb3HjNHpYXDeMoEj5Kpd_CFsOVUidpg/viewform" 
+           class="cta-button" 
+           target="_blank" 
+           rel="noopener"
+           onclick="trackApplyClick('sticky_mobile')">
+            <span>განცხადების შევსება</span>
+            <span class="cta-arrow">→</span>
+        </a>
+    </div>
+
+    <!-- ============================================
+         Google Analytics Tracking
+         ============================================ -->
+    <script>
+        // Tracks which CTA button was clicked
+        function trackApplyClick(location) {
+            // Google Analytics 4 event tracking
+            if (typeof gtag !== 'undefined') {
+                gtag('event', 'apply_click', {
+                    'event_category': 'Vacancy',
+                    'event_label': 'Team Development Manager',
+                    'button_location': location
+                });
+            }
+            
+            // Also works with Universal Analytics
+            if (typeof ga !== 'undefined') {
+                ga('send', 'event', 'Vacancy', 'Apply Click', 'TDM - ' + location);
+            }
+            
+            // Facebook Pixel (if you add it later)
+            if (typeof fbq !== 'undefined') {
+                fbq('track', 'Lead', {
+                    content_name: 'Team Development Manager',
+                    content_category: location
+                });
+            }
+        }
+    </script>
+
+</body>
+</html>
